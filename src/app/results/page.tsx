@@ -3,6 +3,8 @@ import { BarChart, ChartEntry } from "@/components/charts/BarChart";
 import { PieChart } from "@/components/charts/PieChart";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
+
 interface ResponseRow {
   graduation_semester: string;
   internship_experience: string;
